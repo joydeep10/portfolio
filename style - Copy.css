@@ -1,0 +1,127 @@
+body{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+.img-thumbnail {
+    width: 100px; /* Adjust as needed */
+    height: 50px;
+  }
+  .btn-outline-primary {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+/* Basic styling for the container and form elements */
+.containerr {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form {
+    font-family: sans-serif;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure consistent sizing */
+  }
+  
+  textarea {
+    resize: none; /* Prevent textarea resizing */
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Additional styling for labels and inputs */
+  label {
+    font-weight: bold;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  /* certifications section */
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the content within the slide */
+}
+
+.swiper-image {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 200px; /* Set your desired max height */
+  max-width: 200px; /* Set your desired max width */
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Preserve the image's aspect ratio */
+  display: inline-block; /* Ensure inline-block for centering */
+}
+
+
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 750px; /* Set your desired width */
+    height: auto; /* Automatically adjust height based on width */
+    object-fit: contain; /* Preserve the image's aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+  
+  
